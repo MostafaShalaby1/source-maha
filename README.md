@@ -1,7 +1,7 @@
 <h2 align="centre">Bot duniya Music Player</h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/55202a2a5dd038bdbebea.jpg">
+  <img src="https://telegra.ph/file/c396c737c25469f0d49c2.mp4">
 </p>
 
 <h3>Requirements 📝</h3>
@@ -52,4 +52,4 @@
 - [Rock](https://t.me/ROCKSTAR_XDD)
 
 ### Support & Updates 
-<a href="https://t.me/PmPermit"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BotDuniya"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/music_Desha"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/music_Desha"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
