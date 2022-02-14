@@ -20,7 +20,7 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 from youtubesearchpython import VideosSearch
-IMAGE_THUMBNAIL = "https://telegra.ph/file/c396c737c25469f0d49c2.mp4"
+IMAGE_THUMBNAIL = "https://telegra.ph/file/66d20566acacf826372d7.jpg"
 
 
 def ytsearch(query: str):
@@ -144,7 +144,7 @@ async def vplay(c: Client, m: Message):
                 await m.reply_photo(
                     photo=thumbnail,
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"💡 **تمت إضافة المسار إلى قائمة الانتظار »** `{pos}`\n\n🗂 **Name:** [{songname}]({link}) | `video`\n💭 **Chat:** `{chat_id}`\n🧸 **Request by:** {requester}",
+                    caption=f"💡 **تمت إضافة المسار إلى قائمة الانتظار »** `{pos}`\n\n🗂 **أسـم:** [{songname}]({link}) | `video`\n💭 **شأت:** `{chat_id}`\n🧸 **مـطـلـوُبه بوُأسطة:** {requester}",
                 )
             else:
                 if Q == 720:
@@ -228,7 +228,7 @@ async def vplay(c: Client, m: Message):
                         else:
                             try:
                                 await loser.edit(
-                            f"**𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**أنـتـظـر مـن فـضـلـك Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                                 await call_py.join_group_call(
                                     chat_id,
@@ -300,7 +300,7 @@ async def vplay(c: Client, m: Message):
                         await m.reply_photo(
                             photo=image,
                             reply_markup=InlineKeyboardMarkup(buttons),
-                            caption=f"💡 **تمت إضافة المسار إلى قائمة الانتظار »** `{pos}`\n\n🗂 **Name:** [{songname}]({url}) | `video`\n⏱ **الـوقـت:** `{duration}`\n🧸 **مطلوبه بواسطة:** {requester}",
+                            caption=f"💡 **تمت إضافة المسار إلى قائمة الانتظار »** `{pos}`\n\n🗂 **أسـم:** [{songname}]({url}) | `video`\n⏱ **الـوقـت:** `{duration}`\n🧸 **مطلوبه بواسطة:** {requester}",
                         )
                     else:
                         try:
