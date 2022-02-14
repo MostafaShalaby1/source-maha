@@ -1,7 +1,7 @@
 <h2 align="centre">Bot duniya Music Player</h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/c396c737c25469f0d49c2.mp4">
+  <img src="https://telegra.ph/file/81f7fe75e4e487651402b.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
@@ -46,10 +46,9 @@
 - PyTgCalls
 
 #### Special Credits
-- [Subhanahu](https://t.me/Shubhanshutya)
-- [Sammy](https://t.me/OpFriDay)
-- [Abhi](https://t.me/VEXERA_MUSICS)
-- [Rock](https://t.me/ROCKSTAR_XDD)
+- [𝑫𝑬𝑺𝑯𝑨](https://t.me/DeshaXBlacck)
+- [𝑴𝑨𝑯𝑨](https://t.me/U_A_DI)
+- [𝑭𝑨𝑾𝒁𝒀](https://t.me/U_K_G)
 
 ### Support & Updates 
 <a href="https://t.me/music_Desha"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/music_Desha"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
