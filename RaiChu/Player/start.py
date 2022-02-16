@@ -47,7 +47,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "مطور البوت..♡", url=f"https://t.me/{OWNER_NAME}"),
+                        "مـطـوُر ألـبـوُت..♡", url=f"https://t.me/{OWNER_NAME}"),
                 ]
                 [
                     InlineKeyboardButton(
