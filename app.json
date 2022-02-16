@@ -7,9 +7,9 @@
         "telegram bot",
         "pyrogram"
     ],
-    "website": "https://t.me/Music54Elkeatib",
-    "repository": "https://github.com/vcviaair/cviaair-RaiChu-music",
-    "success_url": "https://t.me/MusicElkeatib",
+    "website": "https://t.me/music_Desha",
+    "repository": "https://github.com/MostafaShalaby1/source-maha",
+    "success_url": "https://t.me/music_Desha1",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
@@ -46,12 +46,12 @@
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": false,
-            "value": "Music54Elkeatib"
+            "value": "music_Desha"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": false,
-            "value": "MusicElkeatib"
+            "value": "music_Desha1"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
