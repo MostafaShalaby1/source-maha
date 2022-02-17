@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
         await message.reply_text(
-        f"""**[👋](https://telegra.ph/file/66d20566acacf826372d7.jpg)**
+        f"""[👋](https://telegra.ph/file/66d20566acacf826372d7.jpg)
 **مرحبا بك فـ سـوُرس مـهـأأ يتيح لك تشغيل الموسيقي والفيديو بدون اي مشكله وبدون تهنيج 🤍😊
         
 امـامـك الـبـوت الـخـاص بـنـا..♡ [𝘽𝙤𝙩 𝑫𝑬𝑺𝑯𝑨](https://t.me/DESHA_MUSIC_BOT)
