@@ -33,16 +33,16 @@ async def _human_time_duration(seconds):
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
         await message.reply_text(
-        f"""[👋](https://telegra.ph/file/66d20566acacf826372d7.jpg)
-**مرحبا بك فـ سـوُرس مـهـأأ يتيح لك تشغيل الموسيقي والفيديو بدون اي مشكله وبدون تهنيج 🤍😊
+        f"""[👋](https://telegra.ph/file/07774703ca98686f51fd4.jpg)
+**مرحبا بك فـ سـوُرس سـافو يتيح لك تشغيل الموسيقي والفيديو بدون اي مشكله وبدون تهنيج 🤍😊
         
-امـامـك الـبـوت الـخـاص بـنـا..♡ [𝘽𝙤𝙩 𝑫𝑬𝑺𝑯𝑨](https://t.me/DESHA_MUSIC_BOT)
+امـامـك الـبـوت الـخـاص بـنـا..♡ [𝘽𝙤𝙩 𝚂𝙰𝚅𝙾](https://t.me/B8stat_bot)
 نـتـمنـي لـكـم الـاسـتـمـتـاع بـهـذا الـبـوت 😇**
 
 💞  تم برمجة البوت بواسطة 
 
-⋆  [Mostafa Shalaby](t.me/DeshaXBlacck)
-⋆  [◟ꪔᥲꫝᥲ](https://t.me/U_A_DI)
+⋆  [Mostafa Ali](t.me/s_a_s_a_3li)
+⋆  [Emperor Hassan](https://t.me/theemperorhb)
  
         """,
         reply_markup=InlineKeyboardMarkup(
@@ -53,17 +53,17 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "مـبرمج ألـسـوُرس..♡", url="https://t.me/DeshaXBlacck"
+                        "مـبرمج السـورس..♡", url="https://t.me/s_a_s_a_3li"
                     ),
                     InlineKeyboardButton(
-                        "الـاوامـر..♡", url="https://telegra.ph/%F0%9D%98%BE%F0%9D%99%A4%F0%9D%99%A2%F0%9D%99%A2%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%99%F0%9D%99%A8-%F0%9D%99%81%F0%9D%99%A4%F0%9D%99%A7-%F0%9D%98%BD%F0%9D%99%A4%F0%9D%99%A9-%F0%9D%98%BF%F0%9D%99%AA%F0%9D%99%A3%F0%9D%99%9E%F0%9D%99%AE%F0%9D%99%96-%F0%9D%98%BD%F0%9D%99%8A%F0%9D%99%8F-02-08-3"
+                        "الـاوامـر..♡", url="https://t.me/DEV_SAVO/26"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
                        "جـروب الـدعـم..♡", url=f"https://t.me/{GROUP_SUPPORT}"),
                     InlineKeyboardButton(
-                        "قـنـأة ألـسـوُرس..♡", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                        "قـنـأة السـورس..♡", url=f"https://t.me/{UPDATES_CHANNEL}"),
                 ],
                 [
                     InlineKeyboardButton(
