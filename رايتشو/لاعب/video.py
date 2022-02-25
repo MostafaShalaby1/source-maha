@@ -20,7 +20,7 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 from youtubesearchpython import VideosSearch
-IMAGE_THUMBNAIL = "https://telegra.ph/file/66d20566acacf826372d7.jpg"
+IMAGE_THUMBNAIL = "https://telegra.ph/file/0dd62ad35eb6209d4217d.jpg"
 
 
 def ytsearch(query: str):
@@ -78,8 +78,8 @@ async def vplay(c: Client, m: Message):
         return
     if not a.can_delete_messages:
         await m.reply_text(
-        "💡 To use me, Give me the following permission below:"
-        + "\n\n» ❌ __Delete messages__\n\nOnce done, try again.")
+        "💡 من فضـلك قـم بـاعطائي صلحيـه:"
+        + "\n\n» ❌ __حذف الرسـائل__\n\nOnce done, try again.")
         return
     if not a.can_invite_users:
         await m.reply_text(
@@ -109,12 +109,12 @@ async def vplay(c: Client, m: Message):
             pass
         except Exception as e:
             return await m.reply_text(
-                f"❌ **userbot failed to join**\n\n**reason**: `{e}`"
+                f"❌ **فشـل انضـمام المسـاعد**\n\n**🙂♥**: `{e}`"
             )
 
     if replied:
         if replied.video or replied.document:
-            loser = await replied.reply("📥 **downloading video...**")
+            loser = await replied.reply("📥 *تـنزيل الفـديـو...**")
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
@@ -181,8 +181,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 قـنـاة السـورس", url=f"https://t.me/music_Desha1"),
-                            InlineKeyboardButton("💭 الـبـشمبرمج", url=f"https://t.me/DeshaXBlacck")
+                            InlineKeyboardButton("📣 قـنـاة السـورس", url=f"https://t.me/DEV_SAVO"),
+                            InlineKeyboardButton("💭 الـبـشمبرمج سـافـو", url=f"https://t.me/s_a_s_a_3li")
                         ],
                         [
                             InlineKeyboardButton("🗑 حذف", callback_data="cls")
@@ -261,8 +261,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 قـنـاة الـسـورس", url=f"https://t.me/music_Desha1"),
-                            InlineKeyboardButton("💭 الـبـشمبرمج", url=f"https://t.me/DeshaXBlacck")
+                            InlineKeyboardButton("📣 قـنـاة الـسـورس", url=f"https://t.me/DEV_SAVO"),
+                            InlineKeyboardButton("💭 الـبـشمبرمج سـافو", url=f"https://t.me/s_a_s_a_3li")
                         ],
                         [
                             InlineKeyboardButton("🗑 حذف", callback_data="cls")
