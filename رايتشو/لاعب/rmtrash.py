@@ -20,7 +20,7 @@ async def clear_downloads(_, message: Message):
         await message.reply_text("❌ **NO FILES DOWNLOADED**")
 
         
-@Client.on_message(command(["rmw", "clean"]) & ~filters.edited)
+@Client.on_message(command(["تنظيف", "clean"]) & ~filters.edited)
 @errors
 @sudo_users_only
 async def clear_raw(_, message: Message):
