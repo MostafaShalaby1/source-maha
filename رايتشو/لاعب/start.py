@@ -44,6 +44,8 @@ async def start(_, message: Message):
 ⋆  [سـافو](t.me/s_a_s_a_3li)
 ⋆  [عـازف](https://t.me/X_X_A_Z_F_X_X2)
 ⋆  [الامبراطور حسن](https://t.me/theemperorhb)
+⋆  [◟المطـور سـافو](https://telegra.ph/file/0dd62ad35eb6209d4217d.jpg)
+ 
         """,
         reply_markup=InlineKeyboardMarkup(
             [
